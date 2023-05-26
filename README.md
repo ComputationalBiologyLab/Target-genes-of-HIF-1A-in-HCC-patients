@@ -1,4 +1,4 @@
-# introduction
+# Introduction
 
 Differential expression analysis means taking the normalized read count data and performing statistical analysis to discover quantitative changes in expression levels between experimental groups.
 The DESeq2 package is designed for normalization, visualization, and differential analysis of high-dimensional count data. It makes use of empirical Bayes techniques to estimate priors for log fold change and dispersion and to calculate posterior estimates for these quantities.
