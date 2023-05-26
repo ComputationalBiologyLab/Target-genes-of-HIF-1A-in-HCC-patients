@@ -1,16 +1,15 @@
 # Introduction
 
-Differential expression analysis means taking the normalized read count data and performing statistical analysis to discover quantitative changes in expression levels between experimental groups.
-The DESeq2 package is designed for normalization, visualization, and differential analysis of high-dimensional count data. It makes use of empirical Bayes techniques to estimate priors for log fold change and dispersion and to calculate posterior estimates for these quantities.
-
-# RNAseq Pipeline
+Code to study the effect of Hypoxia inducible factor-1A on the metabolic functions of hepatocellular carcinoma
+"
+# Computational Framework
 This pipeline performs the following tasks:
 
 - Retrieve the data from TCGA using the GDC package
-- data filtering and normalization
+- Data filtering and normalization
 - Differential expression analysis using deseq2 package
-- data visualization for the results in the form of a volcano plot using ggplot2
-- data visualization based on the different groups we had using boxplot
+- Data visualization for the results in the form of a volcano plot using ggplot2
+- Data visualization based on the different groups we had using boxplot
 
 the whole pipeline is developed with the R language 
 ## Installation and prerequisites
