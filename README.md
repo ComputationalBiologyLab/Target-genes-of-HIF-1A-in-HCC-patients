@@ -1,7 +1,6 @@
 # Introduction
 
-Code to study the effect of Hypoxia inducible factor-1A on the metabolic functions of hepatocellular carcinoma
-"
+Code to study the effect of Hypoxia inducible factor-1A on the metabolic functions of hepatocellular carcinoma.
 # Computational Framework
 This pipeline performs the following tasks:
 
