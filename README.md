@@ -41,9 +41,7 @@ install.package("deseq2")
 ## Download
 
 - download the project as a zip file and then import the zip file as a project in Rstudio 
-- Use git clone:
-
-git clone git@github.com:UMCUGenetics/RNASeq.git
+- Use git clone
 
 ## Usage
 Download our RNAseq pipeline. Make sure all dependencies are installed and the right paths are set in the pipeline.
