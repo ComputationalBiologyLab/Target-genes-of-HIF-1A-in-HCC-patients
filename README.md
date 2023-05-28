@@ -1,4 +1,4 @@
-# Introduction
+﻿# Introduction
 
 Code to study the effect of Hypoxia inducible factor-1A on the metabolic functions of hepatocellular carcinoma.
 # Computational Framework
@@ -46,6 +46,6 @@ install.package("deseq2")
 ## Usage
 Download our RNAseq pipeline. Make sure all dependencies are installed and the right paths are set in the pipeline.
 
-make sure that all the used packages are installed before running the code
+make sure that all the used packages are installed before running the code.
 
-
+The initial data download step from TCGA can be bypassed by utilizing the pre-existing data file named "Gene_Counts.zip" within the designated "data" folder. This Gene_Counts file can be directly employed for conducting Deseq2_analysis.
