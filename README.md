@@ -9,8 +9,8 @@ This pipeline performs the following tasks:
 - Differential expression analysis using deseq2 package
 - Data visualization for the results in the form of a volcano plot using ggplot2
 - Data visualization based on the different groups we had using boxplot
-- Principal Component Analysis to identify and visualize the most significant components and their correlation to demographic data. 
-- Survival Analysis to examine the correlation between candidate genes expression levels and patient survival times.
+- Principal Component Analysis using using plotPCA() from the DESeq2 package
+- Survival Analysis using Kaplain Mier and Logrank test.
 
 ## Installation and Prerequisites
 
@@ -23,14 +23,13 @@ Use the R installation [install.package](https://www.rdocumentation.org/packages
 - R packages: 
 
 	-DESeq2 1.18.0
-	-ggplot2 1.6.3 
+	-ggplot2 3.5.1
 	-tidyr
 	-GDC -ggplot2
 	-survival 3.5.7
 	-cowplot 1.1.3
 	-survminer 0.4.9
-	-ggplot2 3.5.1
-
+	
 
 -Bioconductor annotations for:
  Human: org.Hs.eg.db
