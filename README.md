@@ -22,13 +22,19 @@ Use the R installation [install.package](https://www.rdocumentation.org/packages
 
 - R packages: 
 
-	-DESeq2 1.18.0
-	-ggplot2 3.5.1
-	-tidyr
-	-GDC -ggplot2
-	-survival 3.5.7
-	-cowplot 1.1.3
-	-survminer 0.4.9
+	-DESeq2 1.18.0  
+	
+	-ggplot2 3.5.1  
+	
+	-tidyr  
+	
+	-GDC -ggplot2  
+	
+	-survival 3.5.7  
+	
+	-cowplot 1.1.3  
+	
+	-survminer 0.4.9  
 	
 
 -Bioconductor annotations for:
