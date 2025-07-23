@@ -51,3 +51,9 @@ Download our RNAseq pipeline. Make sure all dependencies are installed and the r
 make sure that all the used packages are installed before running the code.
 
 The initial data download step from TCGA can be bypassed by utilizing the pre-existing data file named "Gene_Counts.zip" within the designated "data" folder. This Gene_Counts file can be directly employed for conducting Deseq2_analysis.
+
+## 📖 Citation
+
+If you use this work, or any of the associated code/materials, in your own research or publication, please cite our paper:
+
+Khedr, M.A., Mohamed, Z., El-Derby, A.M. et al. Development of hepatocellular carcinoma organoid model recapitulating HIF-1A metabolic signature. Clin Exp Med 25, 9 (2025). https://doi.org/10.1007/s10238-024-01521-x
