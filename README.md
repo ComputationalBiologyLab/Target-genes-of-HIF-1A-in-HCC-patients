@@ -52,7 +52,7 @@ make sure that all the used packages are installed before running the code.
 
 The initial data download step from TCGA can be bypassed by utilizing the pre-existing data file named "Gene_Counts.zip" within the designated "data" folder. This Gene_Counts file can be directly employed for conducting Deseq2_analysis.
 
-## 📖 Citation
+## Citation
 
 If you use this work, or any of the associated code/materials, in your own research or publication, please cite our paper:
 
